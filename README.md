@@ -11,6 +11,13 @@ This is **not** new model weights. Weights stay on Hugging Face. This repo is a 
 - Qwen3 reasoning parser + tool calling
 - **10 concurrent sequences** (`max_num_seqs=10`)
 
+## Benchmark visualization
+
+[![Publication-style benchmark summary](figures/benchmark-summary.png)](figures/benchmark-summary.pdf)
+
+The figure is generated from this repository's measured results with [`figures/plot_benchmarks.py`](figures/plot_benchmarks.py), following the publication-figure conventions from [figures4papers](https://github.com/ChenLiu-1996/figures4papers). The PNG is optimized for GitHub; click it for the vector PDF.
+
+
 ## Benchmarks (measured on this box)
 
 Host: ASUS Ascent GX10 / NVIDIA GB10  
